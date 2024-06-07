@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87CEFA; /* Azul claro */
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000080; /* Azul marinho */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px 20px; /* Espaço para o header fixo */
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+    background-color: #000080; /* Azul marinho */
+    border-radius: 10px;
+    margin-top: 60px; /* Espaço adicional para o header */
+}
+
+#diagram-section img {
+    width: 100%;
+    border: 2px solid;
+}
+
+#cadastro-section, #login-section, #drone-section, #infravermelho-section, #info-section {
+    background-color: #000080; /* Azul marinho */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #87CEFA; /* Azul claro */
+    color: #000080; /* Azul marinho */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #000080; /* Azul marinho */
+    color: #87CEFA; /* Azul claro */
+}
